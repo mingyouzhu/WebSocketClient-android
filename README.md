@@ -8,7 +8,7 @@
 #### Gradle 方式集成
 在对应 model 的  build.gradle 中添加依赖：
 ```gradle
-implementation 'com.github.0xZhangKe:WebSocketDemo:2.2'
+implementation 'com.github.mingyouzhu:WebSocketClient-android:Tag'
 ```
 然后 sync 一下，如果出现类似的错误：
 ```
