@@ -8,11 +8,11 @@
 #### Gradle 方式集成
 在对应 model 的  build.gradle 中添加依赖：
 ```gradle
-implementation 'com.github.mingyouzhu:WebSocketClient-android:Tag'
+implementation 'com.github.mingyouzhu:WebSocketClient-android:v1.0'
 ```
 然后 sync 一下，如果出现类似的错误：
 ```
-Failed to resolve: com.github.0xZhangKe:WebSocketDemo:2.2
+Failed to resolve: com.github.mingyouzhu:WebSocketClient-android:v1.0
 ```
 那意味着你还没添加 Github 的仓库，到项目根目录中的 build.gradle 中添加如下代码：
 ```gradle
