@@ -17,7 +17,5 @@ public class App extends Application {
         WebSocketSetting.setConnectUrl("ws://192.168.0.103:1106/chat");
         WebSocketSetting.setReconnectWithNetworkChanged(true);
         startService(new Intent(this, WebSocketService.class));
-        int a = 10;
-        int b = 30;
     }
 }
