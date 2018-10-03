@@ -18,5 +18,6 @@ public class App extends Application {
         WebSocketSetting.setReconnectWithNetworkChanged(true);
         startService(new Intent(this, WebSocketService.class));
         int a = 10;
+        int b = 30;
     }
 }
