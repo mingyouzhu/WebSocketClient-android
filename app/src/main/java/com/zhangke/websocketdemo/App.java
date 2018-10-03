@@ -16,7 +16,7 @@ public class App extends Application {
         WebSocketSetting.setPreCmd("login onlly");
         WebSocketSetting.setConnectUrl("ws://192.168.0.103:1106/chat");
         WebSocketSetting.setReconnectWithNetworkChanged(true);
-        startService(new Intent(this, WebSocketService.class));aaa
-
+        startService(new Intent(this, WebSocketService.class));
+        int a = 10;
     }
 }
